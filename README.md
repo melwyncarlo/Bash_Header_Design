@@ -20,7 +20,7 @@ This is a Bash Script Library to create Heading Banners on the Terminal/CUI
 
 sampletext=("This is a text. How are you? Are you fine? I am fine. Coolie coolie cool." "Buh-bye then! See you later, alligator!")
 
-_OR
+_OR_
 
 sampletext=("This is a text. How are you? Are you fine? I am fine. Coolie coolie cool.")
 sampletext+=("Buh-bye then! See you later, alligator!")
