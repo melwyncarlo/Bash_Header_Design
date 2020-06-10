@@ -16,7 +16,7 @@ This is a Bash Script Library to create Heading Banners on the Terminal/CUI
 
 ### The source library contains 2 functions. Given below are function calls and descriptive lists of arguments :
 
-**1.  Assigning Text/String to an Array Variable
+**1.  Assigning Text/String to an Array Variable**
 
 sampletext=("This is a text. How are you? Are you fine? I am fine. Coolie coolie cool." "Buh-bye then! See you later, alligator!")
 
