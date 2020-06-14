@@ -6,12 +6,13 @@ This is a Bash Script Library to create Heading Banners on the Terminal/CUI
 
 
 ### This repository contains 5 files :
-1.  headerdesign.sh →→=>  Main Source (Library) File
+<pre>
+1.  headerdesign.sh             =>  Main Source (Library) File
 2.  headerdesign_demo.sh        =>  Demo File showing Successful Application
 3.  headerdesign_error_demo.sh  =>  Demo File showing Unsuccessful (Error) Application
 4.  demo_output.pdf             =>  Graphical Output of 'headerdesign_demo.sh'
 5.  error_demo_output.pdf       =>  Graphical Output of 'headerdesign_error_demo.sh'
-
+</pre>
 
 
 ### The source library contains 2 functions. Given below are function calls and descriptive lists of arguments :
