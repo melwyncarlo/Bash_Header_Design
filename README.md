@@ -36,7 +36,7 @@ echo -e "$mfc_headerdesignresult"	(Note that the double quotes are very importan
 mfc_rectangularheader "80" "8" "0" "1" "1" "5" "1" "1" "1" "0" "" "${sampletext[@]}" <br>
 echo -e "$mfc_headerdesignresult"	(Note that the double quotes are very important)
 
-<u>NOTE :</u>
+<ins>NOTE :</ins>
 - _The '-e' is not required for Simple (Character-based) Heading Banners_
 - _Assigning too small values for design lengths or large values for border thickness will lead to a run-time error that results in loss of text_
 - _Use individual '\n' to denote a line break as shown in 'sampletext'_
