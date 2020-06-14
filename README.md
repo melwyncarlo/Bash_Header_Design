@@ -1,10 +1,9 @@
 # Bash_Header_Design
 
-
+<br>
 This is a Bash Script Library to create Heading Banners on the Terminal/CUI
 
-
-
+<br><br>
 ### This repository contains 5 files :
 <pre>
 1.  headerdesign.sh             =>  Main Source (Library) File
@@ -14,34 +13,38 @@ This is a Bash Script Library to create Heading Banners on the Terminal/CUI
 5.  error_demo_output.pdf       =>  Graphical Output of 'headerdesign_error_demo.sh'
 </pre>
 
-
+<br><br>
 ### The source library contains 2 functions. Given below are function calls and descriptive lists of arguments :
 
 **1.  Assigning Text/String to an Array Variable**
 
-sampletext=("This is a text. How are you? Are you fine? I am fine. Coolie coolie cool." "Buh-bye then! See you later, alligator!")
+sampletext=("\n" "This is a text. How are you? Are you fine? I am fine. Coolie coolie cool." "Buh-bye then! See you later, alligator!" "\n")
 
 _OR_
 
-sampletext=("This is a text. How are you? Are you fine? I am fine. Coolie coolie cool.")
-sampletext+=("Buh-bye then! See you later, alligator!")
+sampletext=("\n") <br>
+sampletext+=("This is a text. How are you? Are you fine? I am fine. Coolie coolie cool.") <br>
+sampletext+=("Buh-bye then! See you later, alligator!") <br>
+sampletext=("\n")
 
 
-**2.  Function Calls
+**2.  Function Calls**
 
-mfc_scrollheader "70" "8" "130" "0" "1" "5" "1" "" "${sampletext[@]}"
+mfc_scrollheader "70" "8" "130" "0" "1" "5" "1" "" "${sampletext[@]}" <br>
 echo -e "$mfc_headerdesignresult"	(Note that the double quotes are very important)
 
-mfc_rectangularheader "80" "8" "0" "1" "1" "5" "1" "1" "1" "0" "" "${sampletext[@]}"
+mfc_rectangularheader "80" "8" "0" "1" "1" "5" "1" "1" "1" "0" "" "${sampletext[@]}" <br>
 echo -e "$mfc_headerdesignresult"	(Note that the double quotes are very important)
 
-_NOTE :
-- _The '-e' is not required for Simple (Character-based) Heading Banners
-- _Assigning too small values for design lengths or large values for border thickness will lead to a run-time error that results in loss of text
+<u>NOTE :</u>
+- _The '-e' is not required for Simple (Character-based) Heading Banners_
+- _Assigning too small values for design lengths or large values for border thickness will lead to a run-time error that results in loss of text_
+- _Use individual '\n' to denote a line break as shown in 'sampletext'_
 
 
-**3.  List of Arguments
+**3.  List of Arguments**
 
+<pre>
 mfc_scrollheader        -->   Parameter 1 - Columns
                               Parameter 2 - Scroll Sheet Color Code
                               Parameter 3 - Scroll Bar Color Code
@@ -64,10 +67,11 @@ mfc_rectangularheader   -->   Parameter 1 - Columns
                               Parameter 10 - Shadow Mode Color Code
                               Parameter 11 - Simple Mode Character
                               Parameter N - Data as an Array
+</pre>
                               
 ### For any other queries :
 
-Email me on :
-- Github
-- _carlo.melwyn@outlook.com
+<u>Email me on :</u>
+- Github_
+- _carlo.melwyn@outlook.com_
 
