@@ -71,7 +71,7 @@ mfc_rectangularheader   -->   Parameter 1 - Columns
                               
 ### For any other queries :
 
-<u>Email me on :</u>
-- Github_
+<ins>Email me on :</ins>
+- _Github_
 - _carlo.melwyn@outlook.com_
 
