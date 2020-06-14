@@ -11,6 +11,9 @@ This is a Bash Script Library to create Heading Banners on the Terminal/CUI
 3.  headerdesign_error_demo.sh  =>  Demo File showing Unsuccessful (Error) Application
 4.  demo_output.pdf             =>  Graphical Output of 'headerdesign_demo.sh'
 5.  error_demo_output.pdf       =>  Graphical Output of 'headerdesign_error_demo.sh'
+6.  *color_codes.png            =>  Color Codes List
+
+* https://blog.dustinkirkland.com/2013/08/ubuntu-fun-with-ps1.html
 </pre>
 
 <br><br>
@@ -31,10 +34,10 @@ sampletext=("\n")
 **2.  Function Calls**
 
 mfc_scrollheader "70" "8" "130" "0" "1" "5" "1" "" "${sampletext[@]}" <br>
-echo -e "$mfc_headerdesignresult"	(Note that the double quotes are very important)
+echo -e "$mfc_headerdesignresult" <ins><pre>   (Note that the double quotes are very important)</pre></ins>
 
 mfc_rectangularheader "80" "8" "0" "1" "1" "5" "1" "1" "1" "0" "" "${sampletext[@]}" <br>
-echo -e "$mfc_headerdesignresult"	(Note that the double quotes are very important)
+echo -e "$mfc_headerdesignresult" <ins><pre>   (Note that the double quotes are very important)</pre></ins>
 
 <ins>NOTE :</ins>
 - _The '-e' is not required for Simple (Character-based) Heading Banners_
