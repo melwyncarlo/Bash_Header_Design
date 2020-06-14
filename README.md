@@ -34,10 +34,10 @@ _OR_
 **2.  Function Calls**
 
 `mfc_scrollheader "70" "8" "130" "0" "1" "5" "1" "" "${sampletext[@]}"` <br>
-`echo -e "$mfc_headerdesignresult"` &#8195; &#8195; &#8195; &#8195; <= &#8195; <ins>(Note that the double quotes are very important)</ins>
+`echo -e "$mfc_headerdesignresult"` &#8195; &#8195; &#8195; &#8195; &#8195; &#8195; <= &#8195; <ins>(Note that the double quotes are very important)</ins>
 
 `mfc_rectangularheader "80" "8" "0" "1" "1" "5" "1" "1" "1" "0" "" "${sampletext[@]}"` <br>
-`echo -e "$mfc_headerdesignresult"` &#8195; &#8195; &#8195; &#8195; <= &#8195; <ins>(Note that the double quotes are very important)</ins>
+`echo -e "$mfc_headerdesignresult"` &#8195; &#8195; &#8195; &#8195; &#8195; &#8195; <= &#8195; <ins>(Note that the double quotes are very important)</ins>
 
 <ins>NOTE :</ins>
 - _The '-e' is not required for Simple (Character-based) Heading Banners_
