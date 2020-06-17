@@ -4,7 +4,7 @@
 This is a Bash Script Library to create Heading Banners on the Terminal/CUI
 
 <br><br>
-### This repository contains 5 files :
+### This repository contains 6 files :
 <pre>
 1.  headerdesign.sh             =>  Main Source (Library) File
 2.  headerdesign_demo.sh        =>  Demo File showing Successful Application
